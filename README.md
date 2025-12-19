@@ -25,6 +25,8 @@ Due to various formats such as Full Model and LyCORIS and SDXL, script currently
 
 ### # SDXL Blocks Detailed
 
+**All documentation below is based on what AI said, so there may be mistakes. 
+
 <img width="1266" height="531" alt="image" src="https://github.com/user-attachments/assets/aa259955-ccfa-489e-93dd-eae61a833afb" />
 
 ### # Examples for different purpose of LoRAs
@@ -46,8 +48,10 @@ Use `lbw=0,0,0,0,0,0,0,0,1,1,1,1` for **OUT** blocks (style, colors, textures).â
 Skip **IN**/**MID** (pose, composition, character prefs).
 
 ```
-<lora:style_model:1:1:lbw=0,0,0,0,0,0,1,1,0,0,0,0>
+<lora:style_model:1:1:lbw=0,0,0,0,0,0,0,0,1,1,1,1>
 ```
+
+**Personal Test and Proven**: use `<lora:style_model:0.5:lbw=1,1,1,1,1,1,0,1,1,1,1,1>` 
 
 #### # Pose LoRA
 
