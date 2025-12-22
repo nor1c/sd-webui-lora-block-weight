@@ -41,6 +41,11 @@ Due to various formats such as Full Model and LyCORIS and SDXL, script currently
 <lora:character_model:1:1:lbw=0,0,0,0,0,0,1,1,0,0,0,0>
 ```
 
+**Personal Test and Proven**: 
+```
+<lora:char_model:0.85:0.85:lbw=0,0,0,0,0,0,0.8,0.8,0.8,0,0,0>
+```
+
 #### # Style LoRA
 
 Use `lbw=0,0,0,0,0,0,0,0,1,1,1,1` for **OUT** blocks (style, colors, textures).​
@@ -51,7 +56,12 @@ Skip **IN**/**MID** (pose, composition, character prefs).
 <lora:style_model:1:1:lbw=0,0,0,0,0,0,0,0,1,1,1,1>
 ```
 
-**Personal Test and Proven**: use `<lora:style_model:0.5:lbw=1,1,1,1,1,1,0,1,1,1,1,1>` 
+**Personal Test and Proven**: 
+```
+<lora:style_model:0.5:lbw=1,1,1,1,1,1,0,1,1,1,1,1>
+// or
+<lora:style_model:0.5:0.5:lbw=0,0,0,0,0,0,0,1,1,1,1,1>
+```
 
 #### # Pose LoRA
 
